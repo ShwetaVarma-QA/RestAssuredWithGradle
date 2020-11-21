@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="VerifyingSetup" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-21T04:37:21" hostname="Shwetas-MacBook-Pro.local" time="0.001">
-  <properties/>
-  <testcase name="verify" classname="VerifyingSetup" time="0.001"/>
-  <system-out><![CDATA[All set to go
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
