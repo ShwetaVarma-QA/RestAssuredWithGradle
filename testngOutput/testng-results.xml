@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gradle suite" duration-ms="1638" started-at="2020-11-21T04:37:19Z" finished-at="2020-11-21T04:37:21Z">
+    <groups>
+      <group name="req">
+        <method signature="ApiTest.testing()[pri:0, instance:ApiTest@cb5126b]" name="testing" class="ApiTest"/>
+        <method signature="VerifyingSetup.verify()[pri:0, instance:VerifyingSetup@7e2b3499]" name="verify" class="VerifyingSetup"/>
+      </group> <!-- req -->
+    </groups>
+    <test name="Gradle test" duration-ms="1638" started-at="2020-11-21T04:37:19Z" finished-at="2020-11-21T04:37:21Z">
+      <class name="VerifyingSetup">
+        <test-method status="PASS" signature="verify()[pri:0, instance:VerifyingSetup@7e2b3499]" name="verify" duration-ms="1" started-at="2020-11-21T04:37:21Z" finished-at="2020-11-21T04:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+      </class> <!-- VerifyingSetup -->
+      <class name="ApiTest">
+        <test-method status="PASS" signature="testing()[pri:0, instance:ApiTest@cb5126b]" name="testing" duration-ms="1622" started-at="2020-11-21T04:37:19Z" finished-at="2020-11-21T04:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+      </class> <!-- ApiTest -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>

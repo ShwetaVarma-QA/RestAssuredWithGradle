@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ApiTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-21T04:37:19" hostname="Shwetas-MacBook-Pro.local" time="1.622">
+  <properties/>
+  <testcase name="testing" classname="ApiTest" time="1.622"/>
+  <system-out><![CDATA[HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Sat, 21 Nov 2020 03:52:49 GMT
+Server: openresty
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, POST, PUT, DELETE, OPTIONS
+Access-Control-Expose-Headers: ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range
+Cache-Control: public, max-age=21600
+x-memc: HIT
+x-memc-key: c7d9fedacbe3a8b344029e563cad89b8cfd03d9e
+x-memc-age: 19848
+x-memc-expires: 1752
+ETag: W/"98d6f4fb3a0e0c77544a7277f32baebb"
+Last-Modified: Sat, 21 Nov 2020 03:52:49 GMT
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 0958e752c10257135e8f0c4fb8652c06.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C1
+X-Amz-Cf-Id: x3LUl-m5PijGb2dDL5gsK4ac-x7H4SAoJpS9UgO8OhaDI0xutc8Vbg==
+Age: 2671
+
+{
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 99,
+            "name": "Documentary"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        },
+        {
+            "id": 36,
+            "name": "History"
+        },
+        {
+            "id": 27,
+            "name": "Horror"
+        },
+        {
+            "id": 10402,
+            "name": "Music"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 10749,
+            "name": "Romance"
+        },
+        {
+            "id": 878,
+            "name": "Science Fiction"
+        },
+        {
+            "id": 10770,
+            "name": "TV Movie"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
+        },
+        {
+            "id": 10752,
+            "name": "War"
+        },
+        {
+            "id": 37,
+            "name": "Western"
+        }
+    ]
+}
+ time 176
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
